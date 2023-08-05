@@ -1,0 +1,25 @@
+#container {
+    min-width: 599px;
+    min-height: 599px;
+    max-height: 600px;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nestedContainer {
+    display: flex;
+    flex: 1 1 auto;
+
+}
+
+.indivisualDiv {
+    border: 1px solid rgba(128,128,128,0.4);
+    flex: 1 1 auto;
+   
+}
+
+/* dont even touch above now */
