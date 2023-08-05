@@ -4,7 +4,7 @@
     max-height: 600px;
     max-width: 600px;
     margin: auto;
-    border: 1px solid grey;
+ 
     display: flex;
     flex-direction: column;
 
@@ -17,9 +17,69 @@
 }
 
 .indivisualDiv {
-    border: 1px solid rgba(128,128,128,0.4);
+    border: 0.5px solid rgba(128,128,128,0.1);
     flex: 1 1 auto;
    
 }
 
 /* dont even touch above now */
+
+/* 
+colors to use
+
+Bright blue: #51e2f5
+
+Blue Green: #9df9ef
+
+Dusty White: #edf756
+
+Pink Sand: #ffa8B6
+
+Dark Sand: #a28089
+
+*/
+#maindiv {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+    align-items: center;
+    width:70%
+    
+
+}
+
+#favcolor {
+    width:50%;
+    margin: auto;
+    
+}
+
+#buttons {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    background-color:#9df9ef;
+    padding: 50px;
+    opacity: 0.9;
+    border-radius: 7%;
+
+}
+
+h1 {
+    
+    text-align: center;
+    font-size: 90px;
+}
+
+body {
+    background-color: #51e2f5;
+    color: yellow;
+    font-weight: bold;
+}
+
+#container {
+    border: 10px outset #9df9ef;
+}
+
